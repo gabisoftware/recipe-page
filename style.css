@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+body {
+    font-family: "DM Serif Text", serif;
+    background-color: rgb(243, 221, 188);
+}
+
+img#image {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    border-radius: 12px;
+}
+
+p#texto1 {
+    margin-top: -15px;
+    font-size: 18px;
+}
+
+p {
+    color: rgb(134, 93, 31);
+}
+
+li {
+    color: rgb(134, 93, 31);
+    
+}
+
+.main-title {
+    transition: color 0.3s ease;
+}
+
+.main-title:hover {
+    color: rgb(0, 56, 5);
+}
+
+h1 {
+    display: block;
+    font-size: 3em;
+    color: rgb(0, 78, 7);
+}
+
+h3 {
+    color: #704e2eff;
+}
+
+h2 {
+    color: #704e2eff;
+}
+
+span#prep-bold {
+    font-weight: bolder;
+}
+
+.preparation-time {
+    background-color: rgba(243, 221, 188, 0.473);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.preparation-time ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.preparation-time li {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.preparation-time ul li::before{
+    content: "•";
+    color: rgb(134, 93, 31);
+    font-size: 16px;
+    margin-right: 5px;
+    line-height: 1;
+}
+
+span#frases1 {
+    margin-left: 15px;
+}
+
+.ingredients ul {
+    list-style-type: none;
+    list-style-position: outside;
+    padding-left: 0px;
+}
+
+.ingredients li {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.ingredients ul li::before{
+    content: "•";
+    color: rgb(134, 93, 31);
+    font-size: 16px;
+    margin-right: 25px;
+    line-height: 1;
+}
+
+li#frases2 {
+    margin-left: 20px;
+}
+
+main {
+    background-color: rgb(250, 239, 222);
+    width: 700px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 40px;
+}
+
+hr {
+    width: 500px;
+    border: 1px solid rgb(224, 211, 191);
+}
